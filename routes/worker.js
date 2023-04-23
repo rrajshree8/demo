@@ -1,7 +1,12 @@
+const { signup, signin } = require("../controller/worker")
+
 const router=require("express").Router()
 
 
-router.get("/",)
+router.post("/signup",signup)
+
+router.post("/signin",signin)
+
 
 
 
