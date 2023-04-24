@@ -6,7 +6,9 @@ const workerDetails=new mongoose.Schema({
     email:{ type : String , unique : true, required : true },
     phone:{ type : String , unique : true, required : true },
     password:{ type : String , required : true },
-    address:{ type : String , required : true },
+    state:{ type : String , required : true },
+    district:{ type : String , required : true },
+    subDistrict:{ type : String , required : true },
     category:{ type : String , required : true }
 })
 
